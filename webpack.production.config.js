@@ -21,7 +21,7 @@ const config = {
      modules: [
        "node_modules"
     ],
-    extensions: [".tsx", ".js", ".json"]
+    extensions: [".ts", ".tsx", ".js", ".json"]
   },
   entry: [
     './main.js',
