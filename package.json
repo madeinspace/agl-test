@@ -4,10 +4,15 @@
   "description": "A test prior to the interview with AGL",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "clean": "rimraf dist",
-    "production": "cross-env npm run clean && webpack --config webpack.production.config.js --progress --profile --colors",
-    "lint": "eslint app"
+       "prestart": "npm run production",
+      "start": "webpack-dev-server",
+      "clean": "rimraf dist",
+      "production": "cross-env npm run clean && webpack --config webpack.production.config.js --progress --profile --colors",
+      "lint": "eslint app",
+      "test": "mocha --compilers js:babel-core/register --recursive ./tests/**/*.js",
+      "precommit": "cross-env npm run lint && npm test",
+      "prepush": "cross-env npm run lint && npm test"
+
   },
   "author": "Fabrice Million<fabrice.million@gmail.com>",
   "license": "MIT",
