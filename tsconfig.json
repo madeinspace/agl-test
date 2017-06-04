@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitUseStrict": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true
+
+  },
+  "exclude": [
+    "typings",
+    "node_modules",
+    "typings/browser",
+    "typings/browser.d.ts",
+    "obj",
+    "bin",
+    "typings/globals/whatwg-fetch",
+    "typings/main.d.ts",
+    "typings/index.d.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "skipLibCheck": true,
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
