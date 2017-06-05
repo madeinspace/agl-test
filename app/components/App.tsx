@@ -1,7 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import * as _ from "lodash";
-const $ = require("jquery");
 const data = require("../assets/data/people.json");
 
 interface IOwner {
