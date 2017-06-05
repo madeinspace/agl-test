@@ -21,7 +21,6 @@
     "@types/lodash": "^4.14.65",
     "@types/react-dom": "^15.5.0",
     "cross-env": "5.0.0",
-    "jQuery": "^1.7.4",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "react": "15.5.4",
